@@ -8,7 +8,7 @@ st.write("**Rank energy quants by real GitHub impact + model performance** | Liv
 # Load real quant DB
 @st.cache_data
 def load_quants():
-    return pd.read_csv("https://raw.githubusercontent.com/YOURUSERNAME/quantcode/main/quant_db.csv")  # Replace YOURUSERNAME
+    return pd.read_csv("https://raw.githubusercontent.com/shaunroberts0161/quantcode/main/quant_db.csv")  # Replace YOURUSERNAME
 
 quants = load_quants()
 
